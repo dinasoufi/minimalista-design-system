@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Oswald:300,400,500,600,700" rel="stylesheet">
+    <title>Card Callout</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <style>
+        body {
+            background-color: var(--secondary-color);
+            margin: 1rem;
+        }
+
+        .card {
+            border-radius: 0.5rem;
+            color: var(--body-color);
+            padding: 0.5rem;
+        }
+
+        .grid {
+            grid-gap: 1rem;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media (min-width: 460px) {
+
+            body {
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .product-card {
+                max-width: 100%;
+            }
+
+            .card {
+                border-radius: 0.5rem;
+                color: var(--body-color);
+            }
+
+            .grid {
+                display: grid;
+                grid-gap: 1rem;
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="card">
+            <div class="product-card">
+                <img src="img/beats.jpeg" alt="Beats EP Wired Headphone">
+                <h3>Beats EP Wired Headphones</h3>
+                <p class="product-card-price">$129.99</p>
+                <p class="product-details">
+                    Beats EP on-ear headphones delivers masterfully tuned sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="product-card">
+                <img src="img/beats.jpeg" alt="Beats EP Wired Headphone">
+                <h3>Beats EP Wired Headphones</h3>
+                <p class="product-card-price">$129.99</p>
+                <p class="product-details">
+                    Beats EP on-ear headphones delivers masterfully tuned sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="product-card">
+                <img src="img/beats.jpeg" alt="Beats EP Wired Headphone">
+                <h3>Beats EP Wired Headphones</h3>
+                <p class="product-card-price">$129.99</p>
+                <p class="product-details">
+                    Beats EP on-ear headphones delivers masterfully tuned sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

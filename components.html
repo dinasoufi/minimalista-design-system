@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Oswald:300,400,500,600,700" rel="stylesheet">
+    <title>Components</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Minimalista Design System</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="style.html">Style</a>
+            <a href="Components.html" class="current-page">Component</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Minimalista Components</h1>
+        <nav>
+            <ul class="nav-secondary">
+                <li><a href="#button-links"><strong>Button Links</strong></a>
+                    <ul>
+                        <li><a href="#hero-button">Hero Button</a></li>
+                        <li><a href="#normal-button">Normal Button</a></li>
+                        <li><a href="#ghost-button">Ghost Button</a></li>
+                        <li><a href="#ghost-button-light">Ghost Button with Dark Background or Image</a></li>
+                    </ul>
+                </li>
+                <li><a href="#accordions"><strong>Accordions</strong></a></li>
+                <li><a href="#modal-dialog"><strong>Modal Dialog</strong></a></li>
+                <li><a href="#form-inputs"><strong>Form Inputs</strong></a>
+                    <ul>
+                        <li><a href="#text-input">Text Input</a></li>
+                        <li><a href="#textarea-input">Textarea Input</a></li>
+                        <li><a href="#select-input">Select Input</a></li>
+                        <li><a href="#submit-button">Submit/Button</a></li>
+                    </ul>
+                </li>
+                <li><a href="#navigation"><strong>Navigation</strong></a>
+                    <ul>
+                        <li><a href="#primary-navigation">Primary Navigation</a></li>
+                        <li><a href="#secondary-navigation">Secondary Vertical Navigation</a></li>
+                    </ul>
+                </li>
+                <li><a href="#notifications"><strong>Notifications</strong></a></li>
+                <li><a href="#hero-block"><strong>Hero Block</strong></a></li>
+                <li><a href="#information-cards"><strong>Information Cards</strong></a></li>
+                <ul>
+                    <li><a href="#article-post">Article/Post</a></li>
+                    <li><a href="#person-profile">Person/Profile</a></li>
+                    <li><a href="#call-to-action">Call to Action</a></li>
+                </ul>
+                <li><a href="#layout"><strong>Layout</strong></a></li>
+                <ul>
+                    <li><a href="#card-grid">Card Grid</a></li>
+                    <li><a href="#card-callouts">Card Callouts</a></li>
+                </ul>
+
+            </ul>
+        </nav>
+
+        <section class="section-primary">
+            <h2 id="button-links">Button Links</h2>
+            <h3 id="hero-button">Hero Button</h3>
+            <figure>
+                <a href="#" class="btn btn-hero">Hero Button</a>
+                <a href="#" class="btn btn-hero btn-hero-hover">Hero Hover</a>
+                <a href="#" class="btn btn-hero btn-hero-active">Hero Active</a>
+                <a href="#" class="btn btn-hero btn-hero-focus">Hero Focus</a>
+            </figure>
+
+            <h3 id="normal-button">Normal Button</h3>
+            <figure>
+                <a href="#" class="btn btn-normal">Normal Button</a>
+                <a href="#" class="btn btn-normal btn-normal-hover">Normal Hover</a>
+                <a href="#" class="btn btn-normal btn-normal-active">Normal Active</a>
+                <a href="#" class="btn btn-normal btn-normal-focus">Normal Focus</a>
+            </figure>
+
+            <h3 id="ghost-button">Ghost Button</h3>
+            <figure>
+                <a href="#" class="btn btn-ghost">Ghost Button</a>
+                <a href="#" class="btn btn-ghost btn-ghost-hover">Ghost Hover</a>
+                <a href="#" class="btn btn-ghost btn-ghost-active">Ghost Active</a>
+                <a href="#" class="btn btn-ghost btn-ghost-focus">Ghost Focus</a>
+            </figure>
+
+            <h3 id="ghost-button-light">Ghost Button with Dark Background or Image</h3>
+            <figure>
+                <div class="bg-hero-img">
+                    <a href="#" class="btn btn-ghost-light">Ghost Button</a>
+                    <a href="#" class="btn btn-ghost-light btn-ghost-light-hover">Ghost Hover</a>
+                    <a href="#" class="btn btn-ghost-light btn-ghost-light-active">Ghost Active</a>
+                    <a href="#" class="btn btn-ghost-light btn-ghost-light-focus">Ghost Focus</a>
+                </div>
+            </figure>
+        </section>
+
+        <section class="section-primary">
+            <h2 id="accordions">Accordions</h2>
+            <details>
+                <summary>Why Use Design Systems</summary>
+                <div>
+                    <ul>
+                        <li>Design systems bring order to chaos.</li>
+                        <li>Design systems improve the user experience through the repeated use of familiar and proven patterns.</li>
+                        <li>Design systems improve workflow efficiency.</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>What to Include in a Design System</summary>
+                <div>
+                    <ul>
+                        <li>Tone and Voice</li>
+                        <li>Logos and Color</li>
+                        <li>Typography</li>
+                        <li>Accessibility</li>
+                        <li>Alignment</li>
+                        <li>Grids</li>
+                        <li>Spacing</li>
+                        <li>Errors and Validations</li>
+                        <li>Coded Components</li>
+                        <li>Naming Conventions</li>
+                        <li>Iconography</li>
+                        <li>Common UI Elements</li>
+                        <li>Gestures</li>
+                        <li>Motion</li>
+                    </ul>
+                </div>
+            </details>
+        </section>
+
+        <section class="section-primary">
+            <h2 id="modal-dialog">Modal Dialog</h2>
+            <button id="modal-demo" type="button">Open Modal</button>
+            <dialog id="dialog-demo">
+                <h3>Modal Title</h3>
+                <p>This is the Modal Dialog Content! This is the Modal Dialog Content! This is the Modal Dialog Content!</p>
+            </dialog>
+        </section>
+
+        <section class="section-primary">
+            <form action="">
+                <h2 id="form-inputs">Form Inputs</h2>
+                <h3 id="text-input">Text Input</h3>
+                <figure>
+                    <div>
+                        <label for="text">Text</label>
+                        <input type="text" name="text" placeholder="Your text here">
+                    </div>
+
+                    <div>
+                        <label for="text-focus">Text - <em>Focus</em></label>
+                        <input type="text" name="text-focus" placeholder="Your text here" class="focus">
+                    </div>
+
+                    <div>
+                        <label for="text-error">Text - <em>Error</em></label>
+                        <input type="text" name="text-error" class="error">
+                        <span class="error">This field is required</span>
+                    </div>
+
+                    <div>
+                        <label for="text-disabled">Text - <em>Disabled</em></label>
+                        <p class="form-meta-text">Not applicable</p>
+                        <input type="text" name="text-disabled" disabled>
+                    </div>
+                </figure>
+
+                <section class="section-secondary">
+                    <h3 id="textarea-input">Textarea Input</h3>
+                    <figure>
+                        <div>
+                            <label for="textarea">Textarea</label>
+                            <p class="form-meta-text">Add your comments here!</p>
+                            <textarea placeholder="Text area" name="textarea"></textarea>
+                        </div>
+                        <div>
+                            <label for="textarea-focus">Textarea - <em>Focus</em></label>
+                            <p class="form-meta-text">Add your comments here!</p>
+                            <textarea placeholder="Text area" name="textarea-focus" class="focus"></textarea>
+                        </div>
+                        <div>
+                            <label for="textarea-error">Textarea - <em>Error</em></label>
+                            <p class="form-meta-text">Add your comments here!</p>
+                            <textarea name="textarea-error" class="error"></textarea>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="textarea-disabled">Textarea - <em>Disabled</em></label>
+                            <p class="form-meta-text">Not applicable</p>
+                            <textarea name="textarea-disabled" disabled></textarea>
+                        </div>
+                    </figure>
+                </section>
+
+                <section class="section-secondary">
+                    <h3 id="select-input">Select Input</h3>
+                    <figure>
+                        <div>
+                            <label for="select">Select Your Choice</label>
+                            <select name="select" required>
+                                <option value="" selected disabled>Select a Choice</option>
+                                <option value="choice1">Choice 1</option>
+                                <option value="choice2">Choice 2</option>
+                                <option value="choice3">Choice 3</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="select-focus">Select Your Choice - <em>Focus</em></label>
+                            <select name="select-focus" required class="focus">
+                                <option value="" selected disabled>Select a Choice</option>
+                                <option value="choice1">Choice 1</option>
+                                <option value="choice2">Choice 2</option>
+                                <option value="choice3">Choice 3</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="select-error">Select Your Choice - <em>Error</em></label>
+                            <select name="select-error" required class="error">
+                                <option value="" selected disabled>Select a Choice</option>
+                                <option value="choice1">Choice 1</option>
+                                <option value="choice2">Choice 2</option>
+                                <option value="choice3">Choice 3</option>
+                            </select>
+                            <span class="error">Please select an option</span>
+                        </div>
+                        <div>
+                            <label for="select-disabled">Select Your Choice - <em>Disabled</em></label>
+                            <p class="form-meta-text">Not applicable</p>
+                            <select name="select-disabled" required disabled>
+                                <option value="" selected disabled>Select a Choice</option>
+                                <option value="choice1">Choice 1</option>
+                                <option value="choice2">Choice 2</option>
+                                <option value="choice3">Choice 3</option>
+                            </select>
+                        </div>
+                    </figure>
+                </section>
+
+                <section class="section-secondary">
+                    <h3 id="submit-button">Submit/Button</h3>
+                    <figure>
+                        <button type="submit" value="submit" class="btn btn-hero">Submit</button>
+                        <p class="form-meta-text">Button - <em>Hover</em></p>
+                        <button type="submit" value="submit" class="btn btn-hero-hover">Submit</button>
+                        <p class="form-meta-text">Button - <em>Active</em></p>
+                        <button type="submit" value="submit" class="btn btn-hero-active">Submit</button>
+                        <p class="form-meta-text">Button - <em>Focus</em></p>
+                        <button type="submit" value="submit" class="btn btn-hero-focus">Submit</button>
+                    </figure>
+                </section>
+            </form>
+        </section>
+
+        <section class="section-primary">
+            <h2 id="navigation">Navigation</h2>
+            <h3 id="primary-navigation">Primary Navigation</h3>
+            <p class="form-meta-text">Desktop</p>
+            <figure>
+                <nav>
+                    <a href="javascript: return void;" class="demo-desktop">Link 1</a>
+                    <a href="javascript: return void;" class="demo-desktop">Link 2</a>
+                    <a href="javascript: return void;" class="demo-desktop">Link 3</a>
+                </nav>
+            </figure>
+
+            <p class="form-meta-text">Mobile</p>
+            <figure>
+                <nav>
+                    <a href="javascript: return void;" class="demo-mobile">Link 1</a>
+                    <a href="javascript: return void;" class="demo-mobile">Link 2</a>
+                    <a href="javascript: return void;" class="demo-mobile">Link 3</a>
+                </nav>
+            </figure>
+
+            <section class="section-secondary">
+                <h3 id="secondary-navigation">Secondary Vertical Navigation</h3>
+                <figure>
+                    <nav class="nav-secondary">
+                        <ul>
+                            <li><a href="javascript: return void;"><strong>TOC Level 1</strong></a></li>
+                            <li><a href="javascript: return void;"><strong>TOC Level 1</strong></a>
+                                <ul>
+                                    <li><a href="javascript: return void;">TOC Level 2</a></li>
+                                    <li><a href="javascript: return void;">TOC Level 2</a></li>
+                                    <li><a href="javascript: return void;">TOC Level 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </figure>
+            </section>
+        </section>
+
+        <section class="section-primary">
+            <h2 id="notifications">Notifications</h2>
+            <figure>
+                <div class="notification error">
+                    <svg class="icon icon-cross-circle">
+                        <use xlink:href="#lnr-cross-circle"></use>
+                    </svg>
+                    <p class="notification-text">Something went wrong!</p>
+                </div>
+                <div class="notification warning">
+                    <svg class="icon icon-warning">
+                        <use xlink:href="#lnr-warning"></use>
+                    </svg>
+                    <p class="notification-text">Are you sure you want to delete this?</p>
+                </div>
+                <div class="notification">
+                    <svg class="icon icon-bullhorn">
+                        <use xlink:href="#lnr-bullhorn"></use>
+                    </svg>
+                    <p class="notification-text">Do you know that there is a new feature!</p>
+                </div>
+                <div class="notification success">
+                    <svg class="icon icon-checkmark">
+                        <use xlink:href="#lnr-checkmark-circle"></use>
+                    </svg>
+                    <p class="notification-text">Congratulations! Your submission is complete!</p>
+                </div>
+            </figure>
+        </section>
+
+        <section class="section-primary">
+            <h2 id="hero-block">Hero Block</h2>
+            <a href="hero-block.html">
+                <img src="img/hero-block-img.jpg" alt="Hero Block Image"></a>
+        </section>
+
+        <section class="section-primary">
+            <h2 id="information-cards">Information Cards</h2>
+            <h3 id="article-post">Article/Post</h3>
+            <div class="post-card" onclick="window.open('https://www.jaital.com/ocho-rios-jamaica/turtle-river-falls-enchanted-gardens--bird-aviary-tour_Yebl_8429.html')">
+                <img src="img/waterfall.jpg" alt="Turtle River Falls">
+                <h3>Turtle River Falls Day Trip</h3>
+                <p class="post-author">By Dina Soufi</p>
+                <p class="post-details">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <a href="#"> Read more...</a>
+                </p>
+                <span class="timestamp"><i class="fa fa-clock-o"></i> Oct. 31, 2018</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 21 comments</a></span>
+            </div>
+        </section>
+
+        <section class="section-secondary">
+            <h3 id="person-profile">Person/Profile</h3>
+            <div class="profile-card">
+                <img src="img/dina.jpg" alt="Dina">
+                <h3>Dina Soufi</h3>
+                <span class="location">Austin, TX</span>
+                <span>User Experience Designer</span>
+                <a href="mailto:dina.soufi@g.austincc.edu">dina.soufi@g.austincc.edu</a>
+                <a href="tel:5125551212">(512) 555-1212</a>
+            </div>
+        </section>
+
+        <section class="section-secondary">
+            <h3 id="call-to-action">Call to Action</h3>
+            <div class="product-card">
+                <img src="img/beats.jpeg" alt="Beats EP Wired Headphone">
+                <h3>Beats EP Wired Headphones</h3>
+                <p class="product-card-price">$129.99</p>
+                <p class="product-details">
+                    Beats EP on-ear headphones delivers masterfully tuned sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="section-primary">
+            <h2 id="layout">Layout</h2>
+            <h3 id="card-grid">Card Grid</h3>
+            <a href="card-grid.html">
+                <img src="img/card-grid-img.png" alt="Card Grid Image"></a>
+        </section>
+
+        <section class="section-secondary">
+            <h3 id="card-callouts">Card Callouts</h3>
+            <a href="card-callouts.html">
+                <img src="img/card-callouts-img.png" alt="Card Callouts Image"></a>
+        </section>
+        </section>
+    </main>
+    <footer>
+        <h4 class="author-name">Dina Soufi</h4>
+        <p>A passionate UX/UI Designer who is proficient at simplifying complex and critical information into intuitive user experiences and user-focused interfaces.</p>
+        <nav>
+            <a href="http://google.com" target="_blank">Sparkis Group</a>
+            <a href="https://www.linkedin.com/in/dinasoufi/" target="_blank">LinkedIn</a>
+            <a href="http://google.com" target="_blank">Behance</a>
+        </nav>
+        <p>Copyright &copy; 2018 Dina Soufi</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            const modal = document.querySelector('dialog');
+            const open = document.getElementById('modal-demo');
+
+            open.addEventListener('click', () => {
+                modal.showModal();
+            });
+
+            modal.addEventListener('click', event => {
+                if (event.target === modal) {
+                    modal.close('cancelled');
+                }
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>

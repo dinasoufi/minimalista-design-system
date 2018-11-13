@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Oswald:300,400,500,600,700" rel="stylesheet">
+    <title>Styles</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Minimalista Design System</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="style.html" class="current-page">Style</a>
+            <a href="Components.html">Component</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Minimalista Styles</h1>
+        <nav>
+            <ul class="nav-secondary">
+                <li><a href="#color-palette"><strong>Color Palette</strong></a>
+                    <ul>
+                        <li><a href="#primary-color">Primary</a></li>
+                        <li><a href="#secondary-color">Secondary</a></li>
+                        <li><a href="#body-text-color">Body Text</a></li>
+                    </ul>
+                </li>
+                <li class="nav-secondary"><a href="#typography"><strong>Typography</strong></a>
+                    <ul>
+                        <li><a href="#type-faces">Type Faces</a></li>
+                        <li><a href="#headings">Headings</a></li>
+                        <li><a href="#body-text">Body Text</a></li>
+                        <li><a href="#block-quotes">Block Quotes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="section-primary">
+            <h2>Color Palette</h2>
+            <h3 id="primary-color">Primary Colors</h3>
+            <div class="palette-group">
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--primary-color-1);" />
+                    <text x="0" y="125" font-weight="600">PC 1 (Teal)</text>
+                    <text x="0" y="145">#00838f</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--primary-color-1-light);" />
+                    <text x="0" y="125" font-weight="600">PC 1 - Light</text>
+                    <text x="0" y="145">#4fb3bf</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--primary-color-1-dark);" />
+                    <text x="0" y="125" font-weight="600">PC 1 - Dark</text>
+                    <text x="0" y="145">#006978</text>
+                </svg>
+            </div>
+            <div class="palette-group">
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--primary-color-2);" />
+                    <text x="0" y="125" font-weight="600">PC 2 (Rose)</text>
+                    <text x="0" y="145">#e57373</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--primary-color-2-light);" />
+                    <text x="0" y="125" font-weight="600">PC 2 - Light</text>
+                    <text x="0" y="145">#ffa4a2</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--primary-color-2-dark);" />
+                    <text x="0" y="125" font-weight="600">PC 2 - Dark</text>
+                    <text x="0" y="145">#af4448</text>
+                </svg>
+            </div>
+        </section>
+        <section class="section-secondary">
+            <h3 id="secondary-color">Secondary Colors</h3>
+            <div class="palette-group">
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--secondary-color);" />
+                    <text x="0" y="125" font-weight="600">SC (Green)</text>
+                    <text x="0" y="145">#c5e1a5</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--secondary-color-light);" />
+                    <text x="0" y="125" font-weight="600">SC - Light</text>
+                    <text x="0" y="145">#f8ffd7</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--secondary-color-dark);" />
+                    <text x="0" y="125" font-weight="600">SC - Dark</text>
+                    <text x="0" y="145">#94af76</text>
+                </svg>
+            </div>
+        </section>
+        <section class="section-secondary">
+            <h3 id="body-text-color">Body Text Color</h3>
+            <div class="palette-group">
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--body-color);" />
+                    <text x="0" y="125" font-weight="600">Charcoal</text>
+                    <text x="0" y="145">#263238</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--body-color-light);" />
+                    <text x="0" y="125" font-weight="600">Gray</text>
+                    <text x="0" y="145">#4f5b62</text>
+                </svg>
+                <svg width="100" height="165">
+                    <rect width="100" height="100" style="fill:var(--body-color-lighter); stroke-width:1; stroke:rgb(0,0,0)" />
+                    <text x="0" y="125" font-weight="600">Off White</text>
+                    <text x="0" y="145">#efefef</text>
+                </svg>
+            </div>
+        </section>
+        <section class="section-primary">
+            <h2 id="typography">Typography</h2>
+            <h3 id="type-faces">Type Faces</h3>
+            <h4 style="font-family: var(--font-primary); font-size: var(--size-3);"><a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Primary: Open Sans</a></h4>
+            <p>This is the main typeface. The following styles can be used:</p>
+            <ul>
+                <li style="font-family: var(--font-primary);font-weight: 400;">Regular 400</li>
+                <li style="font-family: var(--font-primary);font-weight: 400i;font-style: italic">Regular Italic 400i</li>
+                <li style="font-family: var(--font-primary);font-weight: 600;">Semi-Bold 600</li>
+                <li style="font-family: var(--font-primary);font-weight: 600i;font-style: italic">Semi-Bold Italic 600i</li>
+                <li style="font-family: var(--font-primary);font-weight: 700;">Bold 700</li>
+                <li style="font-family: var(--font-primary);font-weight: 700i;font-style: italic">Bold Italic 700i</li>
+            </ul>
+            <h4 style="font-family: var(--font-secondary); font-size: var(--size-3);"><a href="https://fonts.google.com/specimen/Oswald" target="_blank">Secondary: Oswald</a></h4>
+            <p>This typeface is used for Headings. The following styles can be used:</p>
+            <ul>
+                <li style="font-family: var(--font-secondary);font-weight: 300;" class="example-text-light">Light 300</li>
+                <li style="font-family: var(--font-secondary);font-weight: 400;">Regular 400</li>
+                <li style="font-family: var(--font-secondary);font-weight: 500;">Medium 500</li>
+                <li style="font-family: var(--font-secondary);font-weight: 600;">Semi-Bold 600</li>
+                <li style="font-family: var(--font-secondary);font-weight: 700;">Bold 700</li>
+            </ul>
+            <h4>Mixed Modular Type Scale: 1.25, 1.5, and 0.75</h4>
+        </section>
+        <section class="section-secondary">
+            <h3 id="headings">Headings</h3>
+            <figure>
+                <h1>Heading Level 1</h1>
+                <h2>Heading Level 2</h2>
+                <h3>Heading Level 3</h3>
+                <h4>Heading Level 4</h4>
+                <h5>Heading Level 5</h5>
+                <h6>Heading Level 6</h6>
+            </figure>
+        </section>
+        <section class="section-secondary">
+            <h3 id="body-text">Body Text</h3>
+            <h4>Featured Text</h4>
+            <figure class="featured-text">The solution is designed to help you save valuable time and reduce errors.
+            </figure>
+            <h4>Body</h4>
+            <figure>
+                <strong>Lorem ipsum</strong> is a <em>placeholder text</em> commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                <a href="#">Read more...</a>
+            </figure>
+            <h4>Lists</h4>
+            <figure>
+                <h4>Unordered List:</h4>
+                <ul>
+                    <li>List Item
+                        <ul>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                        </ul>
+                    </li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ul>
+                <h4>Ordered List:</h4>
+                <ol>
+                    <li>List Item
+                        <ol>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                        </ol>
+                    </li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ol>
+            </figure>
+            <h4>Author Credit</h4>
+            <figure class="meta-text">
+                John Smith contributed to the design and implementation of the research, to the analysis of the results, and to the writing of the manuscript.
+            </figure>
+        </section>
+        <section class="section-secondary">
+            <h3 id="block-quotes">Block Quotes</h3>
+            <figure>
+                <blockquote>
+                    <p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+                    <cite>&mdash; Steve Jobs</cite>
+                </blockquote>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <h4 class="author-name">Dina Soufi</h4>
+        <p>A passionate UX/UI Designer who is proficient at simplifying complex and critical information into intuitive user experiences and user-focused interfaces.</p>
+        <nav>
+            <a href="http://google.com" target="_blank">Sparkis Group</a>
+            <a href="https://www.linkedin.com/in/dinasoufi/" target="_blank">LinkedIn</a>
+            <a href="http://google.com" target="_blank">Behance</a>
+        </nav>
+        <p>Copyright &copy; 2018 Dina Soufi</p>
+    </footer>
+</body>
+
+</html>
